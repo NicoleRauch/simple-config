@@ -1,0 +1,36 @@
+{
+  "name": "simple-config",
+  "description": "A simple node.js configuration management module",
+  "version": "0.1.0",
+  "author": "Nicole Rauch",
+  "contributors ": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NicoleRauch/simple-config"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "index.js",
+  "keywords": ["configuration", "config"],
+  "engines": {
+    "node": ">0.10"
+  },
+  "dependencies": {
+    "lodash": "2.4.1"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-jslint": "1.1.12",
+    "grunt-mocha-istanbul": "2.2.0",
+    "must": "0.12.0"
+  },
+  "scripts": {
+    "test": "grunt tests"
+  }
+}

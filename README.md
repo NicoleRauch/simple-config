@@ -1,4 +1,4 @@
 simple-config
 =============
 
-Simple node.js configuration management module.
+A simple node.js configuration management module.
