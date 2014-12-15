@@ -13,7 +13,7 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "",
+  "main": "lib/simple-configure/index.js",
   "keywords": ["configuration", "config", "settings"],
   "engines": {
     "node": ">=0.10"
