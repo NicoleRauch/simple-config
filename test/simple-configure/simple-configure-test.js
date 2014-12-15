@@ -2,7 +2,7 @@
 
 var expect = require('must');
 
-var simpleConfigure = require('.././index');
+var simpleConfigure = require('../../lib/simple-configure/index');
 
 describe('simple-configure', function () {
 
