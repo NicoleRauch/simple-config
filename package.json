@@ -1,13 +1,11 @@
 {
-  "name": "simple-config",
+  "name": "simple-configure",
   "description": "A simple node.js configuration management module",
   "version": "0.1.0",
   "author": "Nicole Rauch",
-  "contributors ": [
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/NicoleRauch/simple-config"
+    "url": "https://github.com/NicoleRauch/simple-configure"
   },
   "licenses": [
     {
@@ -16,7 +14,7 @@
     }
   ],
   "main": "index.js",
-  "keywords": ["configuration", "config"],
+  "keywords": ["configuration", "config", "settings"],
   "engines": {
     "node": ">0.10"
   },
