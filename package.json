@@ -1,7 +1,7 @@
 {
   "name": "simple-configure",
   "description": "A simple node.js configuration management module",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Nicole Rauch",
   "repository": {
     "type": "git",

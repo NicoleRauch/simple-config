@@ -52,4 +52,13 @@ describe('simple-configure', function () {
     expect(simpleConfigure.get('prop3')).to.equal('value3new');
     expect(simpleConfigure.get('prop4')).to.equal('value4');
   });
+
+  it('adds no properties if the given file does not exist', function () {
+    simpleConfigure.addFiles(['nonexistent.txt']);
+    expect(simpleConfigure.get('prop1')).to.be.undefined();
+    expect(simpleConfigure.get('prop2')).to.be.undefined();
+    expect(simpleConfigure.get('prop3')).to.be.undefined();
+    expect(simpleConfigure.get('prop4')).to.be.undefined();
+  });
+
 });
