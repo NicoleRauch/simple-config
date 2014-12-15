@@ -61,4 +61,44 @@ describe('simple-configure', function () {
     expect(simpleConfigure.get('prop4')).to.be.undefined();
   });
 
+  it('adds no properties if the given file array is undefined', function () {
+    simpleConfigure.addFiles();
+    expect(simpleConfigure.get('prop1')).to.be.undefined();
+    expect(simpleConfigure.get('prop2')).to.be.undefined();
+    expect(simpleConfigure.get('prop3')).to.be.undefined();
+    expect(simpleConfigure.get('prop4')).to.be.undefined();
+  });
+
+  it('adds no properties if the given file array is null', function () {
+    simpleConfigure.addFiles(null);
+    expect(simpleConfigure.get('prop1')).to.be.undefined();
+    expect(simpleConfigure.get('prop2')).to.be.undefined();
+    expect(simpleConfigure.get('prop3')).to.be.undefined();
+    expect(simpleConfigure.get('prop4')).to.be.undefined();
+  });
+
+  it('adds no properties if the given object is undefined', function () {
+    simpleConfigure.addProperties();
+    expect(simpleConfigure.get('prop1')).to.be.undefined();
+    expect(simpleConfigure.get('prop2')).to.be.undefined();
+    expect(simpleConfigure.get('prop3')).to.be.undefined();
+    expect(simpleConfigure.get('prop4')).to.be.undefined();
+  });
+
+  it('adds no properties if the given object is null', function () {
+    simpleConfigure.addProperties(null);
+    expect(simpleConfigure.get('prop1')).to.be.undefined();
+    expect(simpleConfigure.get('prop2')).to.be.undefined();
+    expect(simpleConfigure.get('prop3')).to.be.undefined();
+    expect(simpleConfigure.get('prop4')).to.be.undefined();
+  });
+
+  it('adds no properties if the given object is an array', function () {
+    simpleConfigure.addProperties([]);
+    expect(simpleConfigure.get('prop1')).to.be.undefined();
+    expect(simpleConfigure.get('prop2')).to.be.undefined();
+    expect(simpleConfigure.get('prop3')).to.be.undefined();
+    expect(simpleConfigure.get('prop4')).to.be.undefined();
+  });
+
 });
