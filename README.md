@@ -4,7 +4,7 @@ A simple node.js configuration management module.
 
 ## Documentation
 
-simple-configure is a NodeJS module that provides a simple container for properties. To create this container, simply require the module:
+simple-configure is a node.js module that provides a simple container for properties. To create this container, simply require the module:
 
 <pre>
 var simpleConfigure = require('simple-configure');
